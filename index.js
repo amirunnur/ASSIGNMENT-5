@@ -1,15 +1,83 @@
 // // heart count
-// let heartCount = 0;
-// const heartCountEl = document.getElementById('heart-count')
-// document.getElementById('heart1').addEventListener('click',function(){
+ let heartCount = 0;
+const heartCountEl1 = document.getElementById('heart-count')
+ document.getElementById('heart1').addEventListener('click',function(){
     
-//     heartCount++;
-//     heartCountEl.textContent = String('heartCount') 
-//     console.log(heartCount)
+    heartCount++;
+    heartCountEl1.textContent = heartCount 
+     console.log(heartCount)
 
-// })
+ })
+const heartCountEl2 = document.getElementById('heart-count')
+ document.getElementById('heart2').addEventListener('click',function(){
+    
+    heartCount++;
+    heartCountEl2.textContent = heartCount 
+     console.log(heartCount)
 
+ })
+const heartCountEl3 = document.getElementById('heart-count')
+ document.getElementById('heart3').addEventListener('click',function(){
+    
+    heartCount++;
+    heartCountEl3.textContent = heartCount 
+     console.log(heartCount)
+
+ })
+const heartCountEl4 = document.getElementById('heart-count')
+ document.getElementById('heart4').addEventListener('click',function(){
+    
+    heartCount++;
+    heartCountEl4.textContent = heartCount 
+     console.log(heartCount)
+
+ })
+const heartCountEl5 = document.getElementById('heart-count')
+ document.getElementById('heart5').addEventListener('click',function(){
+    
+    heartCount++;
+    heartCountEl5.textContent = heartCount
+     console.log(heartCount)
+
+ })
+const heartCountEl6 = document.getElementById('heart-count')
+ document.getElementById('heart6').addEventListener('click',function(){
+    
+    heartCount++;
+    heartCountEl6.textContent = heartCount
+     console.log(heartCount)
+
+ })
+const heartCountEl7 = document.getElementById('heart-count')
+ document.getElementById('heart7').addEventListener('click',function(){
+    
+    heartCount++;
+    heartCountEl7.textContent = heartCount
+     console.log(heartCount)
+
+ })
+const heartCountEl8 = document.getElementById('heart-count')
+ document.getElementById('heart8').addEventListener('click',function(){
+    
+    heartCount++;
+    heartCountEl8.textContent = heartCount 
+     console.log(heartCount)
+
+ })
+const heartCountEl9 = document.getElementById('heart-count')
+ document.getElementById('heart9').addEventListener('click',function(){
+    
+    heartCount++;
+    heartCountEl9.textContent = heartCount 
+     console.log(heartCount)
+
+ })
+
+
+//  call function
+const callHistoryData = []
 let coinCount = 100;
+const callHistoryEl = document.getElementById('call-history')
 const coinCountEl1 = document.getElementById('coin-count')
 document.getElementById('call1').addEventListener('click',function(){
 if(coinCount<20){
@@ -19,8 +87,18 @@ if(coinCount<20){
     coinCount-=20;
     coinCountEl1.textContent = coinCount;
     alert('Calling National Emergency - 999')
-    
+
+    const data ={
+        name:'National Emergency number',
+        Number:999,
+        date:new Date ().toLocaleDateString()
+
+    }
+    callHistoryData.push(data);
+       
+   
 })
+
 
 const coinCountEl2 = document.getElementById('coin-count')
 document.getElementById('call2').addEventListener('click',function(){
@@ -100,7 +178,7 @@ if(coinCount<20){
     
 })
 const coinCountEl9 = document.getElementById('coin-count')
-document.getElementById('call1').addEventListener('click',function(){
+document.getElementById('call9').addEventListener('click',function(){
 if(coinCount<20){
         alert('Not enough coin to call!');
         return ;
