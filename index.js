@@ -87,13 +87,7 @@ if(coinCount<20){
     coinCountEl1.textContent = coinCount;
     alert('Calling National Emergency - 999')
 
-    const data ={
-        name:'National Emergency number',
-        Number:999,
-        date:new Date ().toLocaleDateString()
-
-    }
-    callHistoryData.push(data);
+    
        
    
 })
@@ -185,6 +179,8 @@ if(coinCount<20){
     coinCount-=20;
     coinCountEl9.textContent = coinCount;
     alert('Calling to Bangladesh railway helpline - i63')
+
+   
     
 })
 // text copy
