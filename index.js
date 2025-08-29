@@ -5,15 +5,14 @@ const heartCountEl1 = document.getElementById('heart-count')
     
     heartCount++;
     heartCountEl1.textContent = heartCount 
-     console.log(heartCount)
-
+     
  })
 const heartCountEl2 = document.getElementById('heart-count')
  document.getElementById('heart2').addEventListener('click',function(){
     
     heartCount++;
     heartCountEl2.textContent = heartCount 
-     console.log(heartCount)
+     
 
  })
 const heartCountEl3 = document.getElementById('heart-count')
@@ -21,7 +20,7 @@ const heartCountEl3 = document.getElementById('heart-count')
     
     heartCount++;
     heartCountEl3.textContent = heartCount 
-     console.log(heartCount)
+    
 
  })
 const heartCountEl4 = document.getElementById('heart-count')
@@ -29,7 +28,7 @@ const heartCountEl4 = document.getElementById('heart-count')
     
     heartCount++;
     heartCountEl4.textContent = heartCount 
-     console.log(heartCount)
+     
 
  })
 const heartCountEl5 = document.getElementById('heart-count')
@@ -37,7 +36,7 @@ const heartCountEl5 = document.getElementById('heart-count')
     
     heartCount++;
     heartCountEl5.textContent = heartCount
-     console.log(heartCount)
+     
 
  })
 const heartCountEl6 = document.getElementById('heart-count')
@@ -45,7 +44,7 @@ const heartCountEl6 = document.getElementById('heart-count')
     
     heartCount++;
     heartCountEl6.textContent = heartCount
-     console.log(heartCount)
+    
 
  })
 const heartCountEl7 = document.getElementById('heart-count')
@@ -53,7 +52,7 @@ const heartCountEl7 = document.getElementById('heart-count')
     
     heartCount++;
     heartCountEl7.textContent = heartCount
-     console.log(heartCount)
+    
 
  })
 const heartCountEl8 = document.getElementById('heart-count')
@@ -61,7 +60,7 @@ const heartCountEl8 = document.getElementById('heart-count')
     
     heartCount++;
     heartCountEl8.textContent = heartCount 
-     console.log(heartCount)
+     
 
  })
 const heartCountEl9 = document.getElementById('heart-count')
@@ -69,7 +68,7 @@ const heartCountEl9 = document.getElementById('heart-count')
     
     heartCount++;
     heartCountEl9.textContent = heartCount 
-     console.log(heartCount)
+    
 
  })
 
@@ -188,7 +187,188 @@ if(coinCount<20){
     alert('Calling to Bangladesh railway helpline - i63')
     
 })
+// text copy
+document.addEventListener('DOMContentLoaded', () => {
+    const textElement = document.getElementById('text-copy1');
+    const copyButton = document.getElementById('copy-btn1'); 
+    const copyCountElement = document.getElementById('copy-count');
+    let copyCount = 0;
 
+    copyButton.addEventListener('click', async () => {
+        const textToCopy = textElement.innerText;
+
+        try {
+            await navigator.clipboard.writeText(textToCopy);
+            copyCount++;
+            copyCountElement.innerText = copyCount;
+            alert('Text copied! ');
+        } catch (err) {
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy text. Please try again.');
+        }
+    });
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const textElement = document.getElementById('text-copy2');
+    const copyButton = document.getElementById('copy-btn2'); 
+    const copyCountElement = document.getElementById('copy-count');
+    let copyCount = 0;
+
+    copyButton.addEventListener('click', async () => {
+        const textToCopy = textElement.innerText;
+
+        try {
+            await navigator.clipboard.writeText(textToCopy);
+            copyCount++;
+            copyCountElement.innerText = copyCount;
+            alert('Text copied! ');
+        } catch (err) {
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy text. Please try again.');
+        }
+    });
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const textElement = document.getElementById('text-copy3');
+    const copyButton = document.getElementById('copy-btn3'); 
+    const copyCountElement = document.getElementById('copy-count');
+    let copyCount = 0;
+
+    copyButton.addEventListener('click', async () => {
+        const textToCopy = textElement.innerText;
+
+        try {
+            await navigator.clipboard.writeText(textToCopy);
+            copyCount++;
+            copyCountElement.innerText = copyCount;
+            alert('Text copied! ');
+        } catch (err) {
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy text. Please try again.');
+        }
+    });
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const textElement = document.getElementById('text-copy4');
+    const copyButton = document.getElementById('copy-btn4'); 
+    const copyCountElement = document.getElementById('copy-count');
+    let copyCount = 0;
+
+    copyButton.addEventListener('click', async () => {
+        const textToCopy = textElement.innerText;
+
+        try {
+            await navigator.clipboard.writeText(textToCopy);
+            copyCount++;
+            copyCountElement.innerText = copyCount;
+            alert('Text copied! ');
+        } catch (err) {
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy text. Please try again.');
+        }
+    });
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const textElement = document.getElementById('text-copy5');
+    const copyButton = document.getElementById('copy-btn5'); 
+    const copyCountElement = document.getElementById('copy-count');
+    let copyCount = 0;
+
+    copyButton.addEventListener('click', async () => {
+        const textToCopy = textElement.innerText;
+
+        try {
+            await navigator.clipboard.writeText(textToCopy);
+            copyCount++;
+            copyCountElement.innerText = copyCount;
+            alert('Text copied! ');
+        } catch (err) {
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy text. Please try again.');
+        }
+    });
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const textElement = document.getElementById('text-copy6');
+    const copyButton = document.getElementById('copy-btn6'); 
+    const copyCountElement = document.getElementById('copy-count');
+    let copyCount = 0;
+
+    copyButton.addEventListener('click', async () => {
+        const textToCopy = textElement.innerText;
+
+        try {
+            await navigator.clipboard.writeText(textToCopy);
+            copyCount++;
+            copyCountElement.innerText = copyCount;
+            alert('Text copied! ');
+        } catch (err) {
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy text. Please try again.');
+        }
+    });
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const textElement = document.getElementById('text-copy7');
+    const copyButton = document.getElementById('copy-btn7'); 
+    const copyCountElement = document.getElementById('copy-count');
+    let copyCount = 0;
+
+    copyButton.addEventListener('click', async () => {
+        const textToCopy = textElement.innerText;
+
+        try {
+            await navigator.clipboard.writeText(textToCopy);
+            copyCount++;
+            copyCountElement.innerText = copyCount;
+            alert('Text copied! ');
+        } catch (err) {
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy text. Please try again.');
+        }
+    });
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const textElement = document.getElementById('text-copy8');
+    const copyButton = document.getElementById('copy-btn8'); 
+    const copyCountElement = document.getElementById('copy-count');
+    let copyCount = 0;
+
+    copyButton.addEventListener('click', async () => {
+        const textToCopy = textElement.innerText;
+
+        try {
+            await navigator.clipboard.writeText(textToCopy);
+            copyCount++;
+            copyCountElement.innerText = copyCount;
+            alert('Text copied! ');
+        } catch (err) {
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy text. Please try again.');
+        }
+    });
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const textElement = document.getElementById('text-copy9');
+    const copyButton = document.getElementById('copy-btn9'); 
+    const copyCountElement = document.getElementById('copy-count');
+    let copyCount = 0;
+
+    copyButton.addEventListener('click', async () => {
+        const textToCopy = textElement.innerText;
+
+        try {
+            await navigator.clipboard.writeText(textToCopy);
+            copyCount++;
+            copyCountElement.innerText = copyCount;
+            alert('Text copied! ');
+        } catch (err) {
+            console.error('Failed to copy text: ', err);
+            alert('Failed to copy text. Please try again.');
+        }
+    });
+});
     
     
-// call history
+
+
